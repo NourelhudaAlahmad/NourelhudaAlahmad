@@ -4,11 +4,14 @@
 ║                                                                      ║
 ║  SETUP                                                               ║
 ║  1. Replace README.md in github.com/NourelhudaAlahmad/NourelhudaAlahmad ║
-║     with this file (the profile repo already exists).                ║
-║  2. Fill in the LINKS section (LinkedIn, email, portfolio, X).       ║
+║     with this file.                                                  ║
+║  2. Workflows in .github/workflows/ of that repo:                    ║
+║       snake.yml          → contribution snake (already running)      ║
+║       summary-cards.yml  → stats / language / contribution cards.    ║
+║                            Needs a token secret once — the how-to    ║
+║                            is at the top of summary-cards-workflow.yml║
+║  3. Fill in the LINKS section (LinkedIn, email, portfolio, X).       ║
 ║     Remove any badge you don't want.                                 ║
-║  3. Optional: copy snake-workflow.yml to .github/workflows/snake.yml ║
-║     to enable the contribution snake.                                ║
 ║                                                                      ║
 ║  Anything marked ✏️ is meant to be personalised.                      ║
 ║  Tip: GitHub caches images for a few minutes — be patient after      ║
@@ -146,17 +149,43 @@ const nourelhuda = {
 <!-- ─────────────────────────── STATS ─────────────────────────── -->
 ## 📊 GitHub Stats
 
-<!-- Cards switch automatically between dark and light mode -->
+<!--
+  These cards are rendered INSIDE this repo by .github/workflows/summary-cards.yml
+  (file: summary-cards-workflow.yml). No third-party server is involved, so they
+  can't go blank when a free hosting plan runs out. Dark mode = tokyonight theme,
+  light mode = github theme. The first card includes the 31-day contribution chart.
+-->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=NourelhudaAlahmad&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=00000000"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=NourelhudaAlahmad&show_icons=true&include_all_commits=true&theme=default&hide_border=true&bg_color=00000000"/>
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=NourelhudaAlahmad&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/0-profile-details.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/0-profile-details.svg"/>
+    <img width="100%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details and contribution chart"/>
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/1-repos-per-language.svg"/>
+    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repositories per language"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=NourelhudaAlahmad&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=00000000"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=NourelhudaAlahmad&layout=compact&langs_count=8&theme=default&hide_border=true&bg_color=00000000"/>
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourelhudaAlahmad&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/2-most-commit-language.svg"/>
+    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages in commits"/>
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/3-stats.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/3-stats.svg"/>
+    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/4-productive-time.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/4-productive-time.svg"/>
+    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time"/>
   </picture>
 </div>
 
@@ -168,10 +197,7 @@ const nourelhuda = {
   </picture>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NourelhudaAlahmad&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="95%" alt="Contribution activity graph"/>
-</div>
-
+<!-- If the trophies don't load, delete this <details> block — it depends on a free-hosted service. -->
 <details>
   <summary>🏆 <b>GitHub Trophies</b> — click to expand</summary>
   <br/>
@@ -181,7 +207,7 @@ const nourelhuda = {
 </details>
 
 <!-- ─────────────────────────── SNAKE ─────────────────────────── -->
-<!-- Needs the snake workflow (see snake-workflow.yml). Remove this block if you skip it. -->
+<!-- Generated by .github/workflows/snake.yml (file: snake-workflow.yml) into the "output" branch. -->
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -195,12 +221,13 @@ const nourelhuda = {
 <!-- ─────────────────────────── FEATURED PROJECTS ─────────────────────────── -->
 ## 🚀 Featured Projects
 
+<!-- These cards are rendered by GitHub itself (opengraph.githubassets.com): always available, always up to date. -->
 <div align="center">
   <a href="https://github.com/NourelhudaAlahmad/ImageHub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NourelhudaAlahmad&repo=ImageHub&theme=tokyonight&hide_border=true" alt="ImageHub — image commerce app built with Laravel 11, Filament, Tailwind CSS and Alpine.js"/>
+    <img width="48%" src="https://opengraph.githubassets.com/1/NourelhudaAlahmad/ImageHub" alt="ImageHub — image commerce app built with Laravel 11, Filament, Tailwind CSS and Alpine.js"/>
   </a>
   <a href="https://github.com/NourelhudaAlahmad/pal4it-erp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NourelhudaAlahmad&repo=pal4it-erp&theme=tokyonight&hide_border=true" alt="pal4it-erp — project manager and time recorder built with ASP.NET Core, Tailwind CSS and Alpine.js"/>
+    <img width="48%" src="https://opengraph.githubassets.com/1/NourelhudaAlahmad/pal4it-erp" alt="pal4it-erp — project manager and time recorder built with ASP.NET Core, Tailwind CSS and Alpine.js"/>
   </a>
 </div>
 
@@ -217,7 +244,34 @@ const nourelhuda = {
   </tr>
 </table>
 
+### 🤝 Client Work
+
+<!--
+  BONDMAXX is a client project: the code is private, so this links to the live site only.
+  The preview image is an automatic screenshot of the live site (thum.io). For a permanent
+  version, save your own screenshot as  assets/bondmaxx.png  in this repo and point the
+  <img src> below at it.
+-->
+<table align="center">
+  <tr>
+    <td width="46%" align="center" valign="middle">
+      <a href="https://www.bondmaxx.com">
+        <img width="100%" src="https://image.thum.io/get/width/1200/crop/675/wait/3/noanimate/https://www.bondmaxx.com" alt="BONDMAXX website preview"/>
+      </a>
+    </td>
+    <td width="54%" valign="top">
+      🎨 <b><a href="https://www.bondmaxx.com">BONDMAXX</a></b> — <sub>bondmaxx.com</sub><br/>
+      <sub>Brand website for BONDMAXX, a paints &amp; colours company — Arabic-language, right-to-left interface. ✏️ <i>Add a line on what the site offers (product catalogue, colour explorer, …).</i></sub><br/><br/>
+      <sub><b>My role:</b> ✏️ <i>e.g. front-end development, UI implementation</i></sub><br/>
+      <sub><b>Stack:</b> ✏️ <i>e.g. React · Tailwind CSS</i></sub><br/><br/>
+      <img src="https://img.shields.io/badge/Client%20project-private%20codebase-6C63FF?style=flat-square&logo=github&logoColor=white" alt="Client project — private codebase"/>
+      <a href="https://www.bondmaxx.com"><img src="https://img.shields.io/badge/Live%20site-bondmaxx.com-3EC9D6?style=flat-square&logo=googlechrome&logoColor=white" alt="Visit the live site"/></a>
+    </td>
+  </tr>
+</table>
+
 <!-- ─────────────────────────── QUOTE ─────────────────────────── -->
+<!-- Free-hosted service; if it ever stops loading, delete this block. -->
 <br/>
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily dev quote"/>
