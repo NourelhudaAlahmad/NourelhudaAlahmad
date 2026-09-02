@@ -67,9 +67,6 @@ const nourelhuda = {
 - 💻 **Software Engineer** with a deep interest in everything web
 - 🌐 Shipped code in **many programming languages** — now **specialising in Web Development**
 - 🧱 Building full-stack apps with **Laravel**, **ASP.NET Core**, **Tailwind CSS** and **Alpine.js**
-- 🔭 Currently working on ✏️ *your current project*
-- 🌱 Currently learning ✏️ *your current topic*
-- ⚡ Fun fact: ✏️ *something about you*
 
 <!-- ─────────────────────────── TECH STACK ─────────────────────────── -->
 ## 🛠️ Tech Stack
@@ -145,66 +142,6 @@ const nourelhuda = {
   <img src="https://img.shields.io/badge/Multi--Language-Developer-3EC9D6?style=for-the-badge&logo=github&logoColor=white" alt="Multi-Language Developer"/>
   <img src="https://img.shields.io/badge/Bachelor's%20Degree-%C4%B0skenderun%20Technical%20University-F39C12?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Bachelor's Degree — İskenderun Technical University"/>
 </div>
-
-<!-- ─────────────────────────── STATS ─────────────────────────── -->
-## 📊 GitHub Stats
-
-<!--
-  These cards are rendered INSIDE this repo by .github/workflows/summary-cards.yml
-  (file: summary-cards-workflow.yml). No third-party server is involved, so they
-  can't go blank when a free hosting plan runs out. Dark mode = tokyonight theme,
-  light mode = github theme. The first card includes the 31-day contribution chart.
--->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/0-profile-details.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/0-profile-details.svg"/>
-    <img width="100%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details and contribution chart"/>
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/1-repos-per-language.svg"/>
-    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repositories per language"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/2-most-commit-language.svg"/>
-    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages in commits"/>
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/3-stats.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/3-stats.svg"/>
-    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/4-productive-time.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/github/4-productive-time.svg"/>
-    <img width="48%" src="https://raw.githubusercontent.com/NourelhudaAlahmad/NourelhudaAlahmad/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time"/>
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=NourelhudaAlahmad&theme=tokyonight&hide_border=true&background=00000000"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=NourelhudaAlahmad&theme=default&hide_border=true&background=00000000"/>
-    <img src="https://streak-stats.demolab.com?user=NourelhudaAlahmad&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-  </picture>
-</div>
-
-<!-- If the trophies don't load, delete this <details> block — it depends on a free-hosted service. -->
-<details>
-  <summary>🏆 <b>GitHub Trophies</b> — click to expand</summary>
-  <br/>
-  <div align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=NourelhudaAlahmad&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub trophies"/>
-  </div>
-</details>
 
 <!-- ─────────────────────────── SNAKE ─────────────────────────── -->
 <!-- Generated by .github/workflows/snake.yml (file: snake-workflow.yml) into the "output" branch. -->
