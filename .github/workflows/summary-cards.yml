@@ -1,0 +1,26 @@
+name: Profile summary cards
+ 
+on:
+  schedule:
+    - cron: "0 1 * * *"      # every day at 01:00 UTC
+  workflow_dispatch:         # lets you trigger it manually
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-profile-summary-cards
+    permissions:
+      contents: write
+ 
+    steps:
+      - uses: actions/checkout@v4
+ 
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 3          # Türkiye (UTC+3) — only affects the "productive time" card
+          THEME: ""              # empty = every theme; the README uses tokyonight (dark mode) and github (light mode)
+          ANIMATION: "draw"      # bars grow and the contribution line draws itself when the card loads
