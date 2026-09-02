@@ -8,20 +8,20 @@
 ║  2. Workflows in .github/workflows/ of that repo:                    ║
 ║       snake.yml          → contribution snake (already running)      ║
 ║       summary-cards.yml  → stats / language / contribution cards.    ║
-║                            Needs a token secret once — the how-to    ║
+║                            Needs a token secret once, the how-to    ║
 ║                            is at the top of summary-cards-workflow.yml║
 ║  3. Fill in the LINKS section (LinkedIn, email, portfolio, X).       ║
 ║     Remove any badge you don't want.                                 ║
 ║                                                                      ║
 ║  Anything marked ✏️ is meant to be personalised.                      ║
-║  Tip: GitHub caches images for a few minutes — be patient after      ║
+║  Tip: GitHub caches images for a few minutes, be patient after      ║
 ║  changing a card.                                                    ║
 ╚══════════════════════════════════════════════════════════════════════╝
 -->
 
 <!-- ─────────────────────────── HEADER ─────────────────────────── -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:3EC9D6&height=230&section=header&text=Nourelhuda%20Alahmad&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%E2%80%A2%20Web%20Developer&descSize=22&descAlignY=58&animation=fadeIn" width="100%" alt="Nourelhuda Alahmad — Software Engineer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:3EC9D6&height=230&section=header&text=Nourelhuda%20Alahmad&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%E2%80%A2%20Web%20Developer&descSize=22&descAlignY=58&animation=fadeIn" width="100%" alt="Nourelhuda Alahmad, Software Engineer"/>
 </div>
 
 <div align="center">
@@ -65,7 +65,7 @@ const nourelhuda = {
 
 - 🎓 **Bachelor's Degree** from **İskenderun Technical University (İSTE), Türkiye**
 - 💻 **Software Engineer** with a deep interest in everything web
-- 🌐 Shipped code in **many programming languages** — now **specialising in Web Development**
+- 🌐 Shipped code in **many programming languages**, now **specialising in Web Development**
 - 🧱 Building full-stack apps with **Laravel**, **ASP.NET Core**, **Tailwind CSS** and **Alpine.js**
 
 <!-- ─────────────────────────── TECH STACK ─────────────────────────── -->
@@ -140,7 +140,7 @@ const nourelhuda = {
 <div align="center">
   <img src="https://img.shields.io/badge/Web%20Development-Specialist-6C63FF?style=for-the-badge&logo=html5&logoColor=white" alt="Web Development Specialist"/>
   <img src="https://img.shields.io/badge/Multi--Language-Developer-3EC9D6?style=for-the-badge&logo=github&logoColor=white" alt="Multi-Language Developer"/>
-  <img src="https://img.shields.io/badge/Bachelor's%20Degree-%C4%B0skenderun%20Technical%20University-F39C12?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Bachelor's Degree — İskenderun Technical University"/>
+  <img src="https://img.shields.io/badge/Bachelor's%20Degree-%C4%B0skenderun%20Technical%20University-F39C12?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Bachelor's Degree, İskenderun Technical University"/>
 </div>
 
 <!-- ─────────────────────────── SNAKE ─────────────────────────── -->
@@ -161,10 +161,10 @@ const nourelhuda = {
 <!-- These cards are rendered by GitHub itself (opengraph.githubassets.com): always available, always up to date. -->
 <div align="center">
   <a href="https://github.com/NourelhudaAlahmad/ImageHub">
-    <img width="48%" src="https://opengraph.githubassets.com/1/NourelhudaAlahmad/ImageHub" alt="ImageHub — image commerce app built with Laravel 11, Filament, Tailwind CSS and Alpine.js"/>
+    <img width="48%" src="https://opengraph.githubassets.com/1/NourelhudaAlahmad/ImageHub" alt="ImageHub, image commerce app built with Laravel 11, Filament, Tailwind CSS and Alpine.js"/>
   </a>
   <a href="https://github.com/NourelhudaAlahmad/pal4it-erp">
-    <img width="48%" src="https://opengraph.githubassets.com/1/NourelhudaAlahmad/pal4it-erp" alt="pal4it-erp — project manager and time recorder built with ASP.NET Core, Tailwind CSS and Alpine.js"/>
+    <img width="48%" src="https://opengraph.githubassets.com/1/NourelhudaAlahmad/pal4it-erp" alt="pal4it-erp, project manager and time recorder built with ASP.NET Core, Tailwind CSS and Alpine.js"/>
   </a>
 </div>
 
@@ -172,11 +172,11 @@ const nourelhuda = {
   <tr>
     <td align="center" width="50%">
       🖼️ <b><a href="https://github.com/NourelhudaAlahmad/ImageHub">ImageHub</a></b><br/>
-      <sub>Image commerce platform — admin panel, image purchase &amp; download, watermarking, search.<br/>Laravel 11 · Filament · Tailwind CSS · Alpine.js · Intervention Image</sub>
+      <sub>Image commerce platform, admin panel, image purchase &amp; download, watermarking, search.<br/>Laravel 11 · Filament · Tailwind CSS · Alpine.js · Intervention Image</sub>
     </td>
     <td align="center" width="50%">
       🗂️ <b><a href="https://github.com/NourelhudaAlahmad/pal4it-erp">pal4it-erp</a></b><br/>
-      <sub>Resource management system — projects, tasks, attendance, time logging, payroll.<br/>ASP.NET Core MVC · C# · Tailwind CSS · Alpine.js</sub>
+      <sub>Resource management system, projects, tasks, attendance, time logging, payroll.<br/>ASP.NET Core MVC · C# · Tailwind CSS · Alpine.js</sub>
     </td>
   </tr>
 </table>
@@ -197,11 +197,11 @@ const nourelhuda = {
       </a>
     </td>
     <td width="54%" valign="top">
-      🎨 <b><a href="https://www.bondmaxx.com">BONDMAXX</a></b> — <sub>bondmaxx.com</sub><br/>
-      <sub>Brand website for BONDMAXX, a paints &amp; colours company — Arabic-language, right-to-left interface. ✏️ <i>Add a line on what the site offers (product catalogue, colour explorer, …).</i></sub><br/><br/>
+      🎨 <b><a href="https://www.bondmaxx.com">BONDMAXX</a></b>, <sub>bondmaxx.com</sub><br/>
+      <sub>Brand website for BONDMAXX, a paints &amp; colours company, Arabic-language, right-to-left interface. ✏️ <i>Add a line on what the site offers (product catalogue, colour explorer, …).</i></sub><br/><br/>
       <sub><b>My role:</b> ✏️ <i>e.g. front-end development, UI implementation</i></sub><br/>
       <sub><b>Stack:</b> ✏️ <i>e.g. React · Tailwind CSS</i></sub><br/><br/>
-      <img src="https://img.shields.io/badge/Client%20project-private%20codebase-6C63FF?style=flat-square&logo=github&logoColor=white" alt="Client project — private codebase"/>
+      <img src="https://img.shields.io/badge/Client%20project-private%20codebase-6C63FF?style=flat-square&logo=github&logoColor=white" alt="Client project, private codebase"/>
       <a href="https://www.bondmaxx.com"><img src="https://img.shields.io/badge/Live%20site-bondmaxx.com-3EC9D6?style=flat-square&logo=googlechrome&logoColor=white" alt="Visit the live site"/></a>
     </td>
   </tr>
